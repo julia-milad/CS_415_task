@@ -37,7 +37,7 @@ class CalculatorTest {
 
     @Test
     void testExponentiation() {
-        int expected = 9;
+        int expected = 8;
         int actual = calculator.Exponentiation(2, 3);
         assertEquals(expected, actual, "Multiplication of numbers failed.");
     }
