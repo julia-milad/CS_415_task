@@ -18,7 +18,7 @@ public class Calculator {
             return a / b;
         }
     }
-    public int Squaring(int a,int b) {
+    public int Exponentiation(int a,int b) {
         return (int)Math.pow(a,b);
     }
 }
