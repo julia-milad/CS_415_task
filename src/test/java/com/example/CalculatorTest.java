@@ -36,7 +36,7 @@ class CalculatorTest {
     }
 
     @Test
-    void testSquaring() {
+    void testExponentiation() {
         int expected = 9;
         int actual = calculator.Squaring(2, 3);
         assertEquals(expected, actual, "Multiplication of numbers failed.");
